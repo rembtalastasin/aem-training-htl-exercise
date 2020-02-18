@@ -5,9 +5,9 @@ JSP:
 <c:if test="${not empty holidaysmodel.holidays}"><c:set var="holidays" value="${holidaysmodel.holidays}" /></c:if>
 
 <div class="container">
-    Resource Type: ${resourceType}
+    Resource Type: ${resourceType} <br />
 
-    List of Holidays for 2020:
+    List of Holidays for 2020: <br />
 
     <c:if test=${holidays} />
     <div class="holidays-container">
